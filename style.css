@@ -17,9 +17,16 @@ body {
 text-align: left;
 }
 
+h1 {
+    font-family: Abril Fatface;
+    text-align: center;
+}
 nav {
     position: sticky;
+    top: 10px;
     background-color: white;
+}
+ul {
     border-style: solid;
     border-color: #eee;
     border-left: white;
@@ -27,20 +34,37 @@ nav {
 }
 
 li {
+    list-style: none;
     display: inline-block;
-    padding: 5px;
+    padding: 20px 5px 20px 5px;
 }
-
-h1 {
-    font-family: Abril Fatface;
-    text-align: center;
+a:link {
+    text-decoration: none;
+    font: #777;
 }
-
+a:visited {
+    text-decoration: none;
+    font: #777;
+}
+h5 {
+    color: red;
+}
 main,p {
-    width: 35em;
+    width: 38em;
     padding: -1em 0em 1em 0em;
+    margin: 5px 7px 5px 7px;
 }
 
 h2 h4 {
     font-family: Roboto Slab;
+}
+
+section {
+    display: inline-block;
+    width: 20em;
+    margin: 5px 7px 5px 7px;
+}
+
+section p {
+    width: 18em;
 }
